@@ -15,8 +15,11 @@ catch (error) {
 const myArray = [1, 2, 3, 4, 5];
 // Attempt to access an element using an index that is out of bounds
 try {
-    console.log(myArray[10]); // This will cause an index error
+    console.log(myArray[10]);
+    console.log('error index  ');
+    // This will cause an index error
 }
 catch (error) {
     console.error("An error occurred:", error);
 }
+console.log(myArray[1]);
