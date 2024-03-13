@@ -2,18 +2,22 @@
 //They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
 
 //Define an object for a book
-interface book { title: string, author: string, year: number } ;
-let book1:  book= {
-    title: "War and Peace",
-    author: "leo",
-    year: 1960
+interface book {
+  title: string;
+  author: string;
+  year: number;
+}
+let book1: book = {
+  title: "War and Peace",
+  author: "owais",
+  year: 1962,
 };
 
 // Define another object for a different book
 let book2: book = {
-    title: "1984",
-    author: "George Orwell",
-    year: 1949
+  title: "peace",
+  author: "palestine",
+  year: 1947,
 };
 
 // Print information about the first book
