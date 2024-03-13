@@ -1,4 +1,4 @@
-let petanimals = ["dog", "cat", "hamster"];
+let petanimals : string[] = ["dog", "cat", "hamster"];
 
 for (let animal of petanimals) {
   console.log(`A ${animal} would make a great pet.`);
