@@ -1,4 +1,4 @@
-let current_users: string[] = ["Hasan", "bilal", "owais", "mahnoor", "hamza"];
+let current_users: string[] = ["Hasan", "BILAL", "owais", "mahnoor", "hamza"];
 let new_users = ["hasssan", "hasan", "alina", "bushra", "bilal"];
 let lowerCaseCurrentUsers = current_users.map((user) => user.toLowerCase());
 console.log(lowerCaseCurrentUsers);
